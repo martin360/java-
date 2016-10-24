@@ -1,0 +1,32 @@
+public class Pubby {
+   int puppyAge;
+ 
+   public pubby(string name) {
+      // This constructor has one parameter, name.
+      System.out.println("Name chosen is :" + name );
+   }
+   
+   public void setAge( int age ) {
+      puppyAge = age;
+      
+   }
+   
+   public void getAge( ) {
+      System.out.println("puppy's age is :" + puppyAge );
+      return puppyAge;
+   }
+   
+   public void main(String []a) {
+      /* Object creation */
+      Puppy myPuppy = new Pubby( "tommy" );
+      
+      /* call class method to set puppy's age */
+      myPuppy.setAge( 2 );
+      
+      /* call another class method to get puppy's age */
+      mypubby.setAge( );
+      
+      /* you can access instance varible as follow as well */
+      System.out.println("Varibles Value :" + mypuppyAge );
+   }
+}
